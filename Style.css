@@ -1,0 +1,108 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.o {
+    color: orange;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.w {
+    color: white;
+}
+
+header {
+    background-color: #292929;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none; 
+    gap: 20px;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+body {
+    background-color: black;
+    margin: 15px;
+    padding: 0;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.7s ease;
+}
+
+.a:hover {
+    color: orange;
+    text-decoration: underline;
+    font-size: 25px; 
+}
+
+.Perfil {
+    padding: 20px;
+    text-align: center;
+}
+
+.Sobre {
+    margin: 15px;
+}
+
+.i {
+    border-radius: 50%;
+    border-color: orange;
+    border-style: solid;
+    border-width: 10px;
+    max-width: 35%; 
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.icon {
+    max-width: 20px;
+}
+
+.r {
+    color: white;
+    text-decoration: none;
+}
+
+.r:hover {
+    text-decoration: underline;
+}
+
+.D {
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 16px;
+    }
+
+    .Perfil {
+        padding: 10px;
+    }
+}
