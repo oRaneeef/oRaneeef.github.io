@@ -16,6 +16,10 @@
     font-size: small;
 }
 
+.t {
+    color: white;
+}
+
 header {
     background-color: #292929;
     padding: 20px;
