@@ -1,50 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio v1</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<header>
-    <nav>
-         <ul>
-            <li><a class="a" href="#">Sobre mim</a></li>
-            <li><a class="a" href="#">Projetos</a></li>
-            <li><a class="a" href="#">Contato</a></li>
-        </ul>
-    </nav>
-</header>
+<html lang="pt-br">
 <body>
-   <div class="Perfil">
-    <img class="i" src="./img/Icon.jpg" alt="Image">
-    <h1 class="t">Rane Nogueira</h1>
-    <h2 class="o">Desenvolvedor Full Stack</h2>
-   </div>
-   <div class="Sobre">
-    <h2 class="o">Apresentação</h2>
-    <p class="w">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac suscipit urna, sit amet eleifend elit. Praesent lacinia convallis sagittis. Maecenas eget tortor a augue tristique hendrerit. Fusce vulputate ligula at sapien tincidunt, vel feugiat urna vulputate. Integer eu nisi ac eros fermentum vehicula in id sapien.</p>
-    <h2 class="o">Tragetória</h2>
-    <p class="w">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac suscipit urna, sit amet eleifend elit. Praesent lacinia convallis sagittis. Maecenas eget tortor a augue tristique hendrerit. Fusce vulputate ligula at sapien tincidunt, vel feugiat urna vulputate. Integer eu nisi ac eros fermentum vehicula in id sapien.</p>
-    <h2 class="o">Habilidades</h2>
-    <p class="w">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac suscipit urna, sit amet eleifend elit. Praesent lacinia convallis sagittis. Maecenas eget tortor a augue tristique hendrerit. Fusce vulputate ligula at sapien tincidunt, vel feugiat urna vulputate. Integer eu nisi ac eros fermentum vehicula in id sapien.</p>
-   </div>
-    <footer>
-        <div class="redes-sociais">
-            <nav>
-                <ul>
-                    <img class="icon" src="./img/LinkedinIcon.png" alt="LinkedIn">
-                    <li><a class="r" href="#">LinkedIn</a></li>
-                    <img class="icon" src="./img/GithubIcon.png" alt="Github">
-                    <li><a class="r" href="#">Github</a></li>
-                    <img class="icon" src="./img/InstagramIcon.png" alt="Instagram">
-                    <li><a class="r" href="#">Instagram</a></li>
-               </ul>
-           </nav>
-        </div>
-        <div class="D">
-            &copy; 2023 Rane Nogueira. Todos os direitos reservados.
-        </div>
-    </footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ALERTA DE SEGURANÇA</title>
+        <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS -->
+        <script>
+            // Função que cria um loop infinito de alertas
+            function loopDeAlertas() {
+                // Loop infinito
+                while (true) {
+                    alert("SEU CELULAR FOI INVADIDO, SEUS DADOS ESTÃO SENDO CLONADOS NESSE MOMENTO, SE LIGA AI MANÉ");
+                }
+            }
+    
+            // Função que será chamada quando a página for carregada
+            function iniciarLoop() {
+                loopDeAlertas(); // Chama a função para iniciar o loop
+            }
+        </script>
+    </head>
+    <body onload="iniciarLoop()"> <!-- Chama a função iniciarLoop() quando a página é carregada -->
+        <h1>Alerta crítico de segurança.</h1>
+        <p>Seu Samsung Galaxy A32 está infectado!</p>
+    </body>
 </body>
 </html>
+
+
